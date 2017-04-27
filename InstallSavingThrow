@@ -1,9 +1,0 @@
-#!/bin/bash
-date=`date +"%Y_%m_%d"`
-
-mkdir -p /Library/HuskerFiles/SavingThrow/Support/
-mkdir -p /Library/HuskerFiles/SavingThrow/Logs/
-cp -rv ./*.sh /Library/HuskerFiles/SavingThrow/
-cp -rv ./*.py /Library/HuskerFiles/SavingThrow/
-cd /Library/HuskerFiles/SavingThrow/
-python ./ATH_SavingThrow.py -v -q >> /Library/HuskerFiles/SavingThrow/scan_$date.log
