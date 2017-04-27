@@ -42,6 +42,6 @@ chmod a+rx *.py
 ##
 ##Perform first scan
 ##
-The script is run with "verbose" (-v) and "remove" (-r) options
+#The script is run with "verbose" (-v) and "remove" (-r) options
 #This deletes any malware found and logs the activity to the "Logs" folder.
 python ATH_SavingThrow.py -v -r >> /Library/HuskerFiles/SavingThrow/Logs/scan_$date.log
